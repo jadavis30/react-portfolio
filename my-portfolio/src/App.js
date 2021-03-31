@@ -10,12 +10,10 @@ function App() {
     const [pages] = useState([
         {name: 'Meet Jared'},
         {name: 'My Portfolio'},
-        {name: 'Reach Out'},
         {name: 'My Resume'}
     ]);
 
     const [currentPage, setCurrentPage] = useState(pages[0]);
-
 
     return (
         <div>
@@ -39,4 +37,5 @@ function App() {
         </div>
     )
 }
+
 export default App;

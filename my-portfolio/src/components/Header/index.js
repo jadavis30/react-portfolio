@@ -11,7 +11,7 @@ function Header(props) {
   } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage.name);
+    document.title =currentPage.name;
   }, [currentPage]);
 
   return (
@@ -23,15 +23,7 @@ function Header(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-          {pages.map((page) => (
+        {pages.map((page) => (
             <li
               className={`mx-1 ${
                 currentPage.name === page.name && !contactSelected && 'navActive'
@@ -44,10 +36,14 @@ function Header(props) {
                   setContactSelected(false);
                 }}
               >
-                {capitalizeFirstLetter(page.name)}
+                {page.name}
               </span>
             </li>
           ))}
+          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+            <span onClick={() => setContactSelected(true)}>Reach Out</span>
+          </li>
+          
         </ul>
       </nav>
     </header>

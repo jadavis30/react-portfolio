@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from "../assets/profile/profileimage.jpg";
+import profileImage from "../../assets/profile/profileimage.jpg";
 import Image from 'react-bootstrap/Image';
 
 
