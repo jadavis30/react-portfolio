@@ -10,15 +10,28 @@ import Col from 'react-bootstrap/Col'
 function Footer() {
     return (
         <Container>
-            < Row>
+            < Row className="flex-row px-1">
                 <Col>
-                    <img src={GitHub} alt="GitHub Profile Link"/>
+                    <a href="https://www.github.com/jadavis30">
+                        <img className="thumbnail-logo" 
+                        src={GitHub} 
+                        alt="GitHub Profile Link"
+                        />
+                    </a>    
                 </Col>
                 <Col>
-                    <img src={LinkedIn} alt="LinkedIn Profile Link"/> 
+                <a href="https://www.linkedin.com/in/jared-davis-b871a0106/">
+                    <img className="thumbnail-logo" 
+                    src={LinkedIn} 
+                    alt="LinkedIn Profile Link"/>
+                </a>     
                 </Col>
                 <Col>
-                    <img src={Twitter} alt="Twitter Profile Link"/>
+                <a href="https://www.twitter.com/JaredHDavis32">
+                    <img className="thumbnail-logo" 
+                    src={Twitter} 
+                    alt="Twitter Profile Link"/>
+                </a>
                 </Col>
             </Row>
         </Container>

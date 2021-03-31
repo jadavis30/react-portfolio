@@ -8,9 +8,9 @@ import About from './components/About'
 function App() {
     const [contactSelected, setContactSelected] = useState(false);
     const [pages] = useState([
-        {name: 'Meet Jared'},
-        {name: 'My Portfolio'},
-        {name: 'My Resume'}
+        {name: 'About'},
+        {name: 'Portfolio'},
+        {name: 'Resume'}
     ]);
 
     const [currentPage, setCurrentPage] = useState(pages[0]);

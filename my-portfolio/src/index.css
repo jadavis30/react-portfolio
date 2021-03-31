@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #222A68;
-  --secondary: #98C1D9;
+  --secondary: #FFE0B5;
   --tertiary: #607466;
   --light: #98C1D9;
   --dark: #222A68;
@@ -272,7 +272,7 @@ button {
 	background: var(--primary);
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: #FFE0B5;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -292,4 +292,10 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.thumbnail-logo {
+  height: 100px;
+  width: 100px;
+  padding: 15px;
 }

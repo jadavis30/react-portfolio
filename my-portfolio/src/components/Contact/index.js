@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Button from 'react-bootstrap/Button'
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
@@ -57,7 +57,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <Button variant="outline-light" type="submit">Submit</Button>
       </form>
     </section>
   );
