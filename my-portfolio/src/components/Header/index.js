@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 function Header(props) {
@@ -7,7 +7,6 @@ function Header(props) {
     setCurrentPage,
     contactSelected,
     currentPage,
-    setContactSelected,
   } = props;
 
   useEffect(() => {
@@ -23,7 +22,7 @@ function Header(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-        {pages.map((page) => (
+          {pages.map((page) => (
             <li
               className={`mx-1 ${
                 currentPage.name === page.name && !contactSelected && 'navActive'
@@ -33,16 +32,12 @@ function Header(props) {
               <span
                 onClick={() => {
                   setCurrentPage(page);
-                  setContactSelected(false);
                 }}
               >
                 {page.name}
               </span>
             </li>
           ))}
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Reach Out</span>
-          </li>
           
         </ul>
       </nav>

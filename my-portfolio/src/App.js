@@ -12,7 +12,8 @@ function App() {
     const [pages] = useState([
         {name: 'About'},
         {name: 'Portfolio'},
-        {name: 'Resume'}
+        {name: 'Resume'},
+        {name: 'Reach Out!'}
     ]);
 
     const [currentPage, setCurrentPage] = useState('About');
@@ -38,15 +39,13 @@ function App() {
                 pages={pages}
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
-                contactSelected={contactSelected}
-                setContactSelected={setContactSelected}
-            ></Header>
+            />
             <main>
                 { renderPage(currentPage) }
             </main>
             <Footer></Footer>
         </>
-    )
+    );
 }
 
 export default App;
