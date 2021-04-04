@@ -21,7 +21,7 @@ function Project() {
                         <a href="https://ucf-photo-hut.herokuapp.com/">
                             <img className="project"
                             src={PhotoHut}
-                            alt="Photo Hut Website"
+                            alt="PhotoHut Website"
                             width="400"
                             height="200"/>
                         </a>

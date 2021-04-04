@@ -23,7 +23,7 @@ main {
 }
 @font-face {
   font-family: "NewTegomin-Regular";
-  src: local("NewTegomin-Regular"), url("../../my-portfolio/src/fonts/NewTegomin-Regular.ttf") format("truetype");
+  src: local("NewTegomin-Regular"), url("../src/fonts/NewTegomin-Regular.ttf") format("truetype");
   font-weight: normal;
 } 
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav'
 import Banner from '../../assets/headerbanner.jpg';
 
