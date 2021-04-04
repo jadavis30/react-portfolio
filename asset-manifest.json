@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/jadavis30/react-portfolio.git/static/css/main.f4ab7080.chunk.css",
+    "main.js": "/jadavis30/react-portfolio.git/static/js/main.f14b8b46.chunk.js",
+    "main.js.map": "/jadavis30/react-portfolio.git/static/js/main.f14b8b46.chunk.js.map",
+    "runtime-main.js": "/jadavis30/react-portfolio.git/static/js/runtime-main.67ba40be.js",
+    "runtime-main.js.map": "/jadavis30/react-portfolio.git/static/js/runtime-main.67ba40be.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/jadavis30/react-portfolio.git/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fda79f78.chunk.js": "/jadavis30/react-portfolio.git/static/js/2.fda79f78.chunk.js",
+    "static/js/2.fda79f78.chunk.js.map": "/jadavis30/react-portfolio.git/static/js/2.fda79f78.chunk.js.map",
+    "index.html": "/jadavis30/react-portfolio.git/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/jadavis30/react-portfolio.git/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f4ab7080.chunk.css.map": "/jadavis30/react-portfolio.git/static/css/main.f4ab7080.chunk.css.map",
+    "static/js/2.fda79f78.chunk.js.LICENSE.txt": "/jadavis30/react-portfolio.git/static/js/2.fda79f78.chunk.js.LICENSE.txt",
+    "static/media/JaredDavisResume.798bb0fa.pdf": "/jadavis30/react-portfolio.git/static/media/JaredDavisResume.798bb0fa.pdf",
+    "static/media/index.css": "/jadavis30/react-portfolio.git/static/media/NewTegomin-Regular.ae8c4d94.ttf",
+    "static/media/headerbanner.f0256f54.jpg": "/jadavis30/react-portfolio.git/static/media/headerbanner.f0256f54.jpg",
+    "static/media/photohut.95663658.png": "/jadavis30/react-portfolio.git/static/media/photohut.95663658.png",
+    "static/media/plandatenight.d497c25f.png": "/jadavis30/react-portfolio.git/static/media/plandatenight.d497c25f.png",
+    "static/media/profileimage.5d4dc9ca.jpg": "/jadavis30/react-portfolio.git/static/media/profileimage.5d4dc9ca.jpg",
+    "static/media/socialmedia.ac18cbab.png": "/jadavis30/react-portfolio.git/static/media/socialmedia.ac18cbab.png",
+    "static/media/teamgen.96d8767d.png": "/jadavis30/react-portfolio.git/static/media/teamgen.96d8767d.png",
+    "static/media/weather.723e101b.png": "/jadavis30/react-portfolio.git/static/media/weather.723e101b.png",
+    "static/media/workday.14200c67.png": "/jadavis30/react-portfolio.git/static/media/workday.14200c67.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67ba40be.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fda79f78.chunk.js",
+    "static/css/main.f4ab7080.chunk.css",
+    "static/js/main.f14b8b46.chunk.js"
+  ]
+}
