@@ -22,4 +22,4 @@ This portfolio is intended to relay my developer skills to potential employers a
 
 ## Questions
 Please visit my site to reach me directly!
-[JARED DAVIS](#)
+[JARED DAVIS](https://)
