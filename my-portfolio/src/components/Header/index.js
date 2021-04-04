@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Nav from 'react-bootstrap/Nav'
+import Banner from '../../assets/headerbanner.jpg';
 
 
 function Header({ currentPage, setCurrentPage }) {
@@ -10,7 +11,8 @@ function Header({ currentPage, setCurrentPage }) {
   }, [currentPage]);
 
   return (
-    <header className="flex-row px-1">
+    //Added banner to header with backgroudImage
+    <header className="flex-row px-5" style={{ backgroundImage: `url(${ Banner })`}}>
       <h2>
         <a href="/">
           Jared Davis

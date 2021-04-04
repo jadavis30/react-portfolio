@@ -8,7 +8,7 @@ function Resume() {
         <section>
             <h1>Work Experience</h1>
                 <div>
-                    <h2>My Current <a href={currentResume}>Resume</a></h2>
+                    <p>My Current <a href={currentResume}>Resume</a></p>
                     <h2>Skills and Languages</h2>
                     <ul>
                         <li>HTML</li>
@@ -16,7 +16,7 @@ function Resume() {
                         <li>JavaScript</li>
                         <li>API creation and integration</li>
                         <li>Node.js</li>
-                        <li>Testing through Jest</li>
+                        <li>Jest</li>
                         <li>Express.js</li>
                         <li>Sequelize</li>
                         <li>MongoDB</li>

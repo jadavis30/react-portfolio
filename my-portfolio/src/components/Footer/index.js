@@ -1,15 +1,16 @@
 import React from 'react';
 import GitHub from "../../assets/GitHub/GitHub-Mark-64px.png";
-import LinkedIn from "../../assets/LinkedIn/In-Blue-Logo.png.original.png";
+import LinkedIn from "../../assets/LinkedIn/LI-In-Bug.png";
 import Twitter from "../../assets/Twitter/twitter-circle-blue.png";
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
+import Banner from '../../assets/headerbanner.jpg';
 
 
 function Footer() {
     return (
-        <Container>
+        <Container fluid className="bottom" style={{ backgroundImage: `url(${ Banner })`}}>
             < Row className="flex-row px-1">
                 <Col>
                     <a href="https://www.github.com/jadavis30">
