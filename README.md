@@ -2,7 +2,7 @@
 
 ## Description
 This portfolio showcases the skills I've acquired and will be updated with new techonologies and products for potential employers. The portfolio was built with the React framework.
-[JARED DAVIS](https://)
+[JARED DAVIS](https://jadavis30.github.io/react-portfolio/)
 
 ## Table of Contents
 - [Description](#description)
@@ -11,8 +11,8 @@ This portfolio showcases the skills I've acquired and will be updated with new t
 - [License](#license)
 - [Questions](#questions)
 
-## Screenshots
-
+## Screenshot
+![alt text](/src/assets/homepage.png)
 
 ## Usage
 This portfolio is intended to relay my developer skills to potential employers and co-authors. This site should only be used to review work with the intent of contacting me, Jared Davis, directly. No links should be produced to my portfolio or work without my consent.
@@ -22,4 +22,4 @@ This portfolio is intended to relay my developer skills to potential employers a
 
 ## Questions
 Please visit my site to reach me directly!
-[JARED DAVIS](https://)
+[JARED DAVIS](https://jadavis30.github.io/react-portfolio/)
