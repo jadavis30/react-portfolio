@@ -7,7 +7,6 @@ function About() {
     return (
         <section>
             <Image src={profileImage} roundedCircle />
-            <h1 id="about">Jared Davis</h1>
             <p>
                 A graduate of Florida State University, I've spent the last 11 years working in public, private, and charter school systems in instructional and leadership roles. 
                 As technologies have moved from overhead projectors to 1:1 tablets, I've immersed myself in what works for kids, and what frustrates teachers.

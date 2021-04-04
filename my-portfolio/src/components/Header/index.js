@@ -13,12 +13,8 @@ function Header({ currentPage, setCurrentPage }) {
   return (
     //Added banner to header with backgroudImage
     <header className="flex-row px-5" style={{ backgroundImage: `url(${ Banner })`}}>
-      <h2>
-        <a href="/">
-          Jared Davis
-        </a>
-      </h2>
-      <Nav defaultActiveKey="/About" as="ul">
+      <h2>JARED DAVIS</h2>
+      <Nav className="" defaultActiveKey="/About">
         { pages.map( link =>(
           <Nav.Link className={`${currentPage === link && 'navActive'}`} ley={link}>
             <span onClick={() => setCurrentPage(link)} >{link}</span></Nav.Link>

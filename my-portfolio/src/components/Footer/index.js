@@ -10,7 +10,7 @@ import Banner from '../../assets/headerbanner.jpg';
 
 function Footer() {
     return (
-        <Container fluid className="bottom" style={{ backgroundImage: `url(${ Banner })`}}>
+        <Container fluid className="fixed-bottom" style={{ backgroundImage: `url(${ Banner })`}}>
             < Row className="flex-row px-1">
                 <Col>
                     <a href="https://www.github.com/jadavis30">

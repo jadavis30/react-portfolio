@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button'
 import { validateEmail } from '../../utils/helpers';
+import '../../fonts/NewTegomin-Regular.ttf';
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -38,7 +39,9 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+      <h1 data-testid="h1tag">Get in Touch</h1>
+      <a href="mailto:jared.davis21@yahoo.com">Send an E-mail!</a>
+      <h4>Or leave a message now:</h4>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
