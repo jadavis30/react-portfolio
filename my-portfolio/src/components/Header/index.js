@@ -1,46 +1,27 @@
 import React, { useEffect, useState } from 'react';
+import Nav from 'react-bootstrap/Nav'
 
 
-function Header(props) {
-  const {
-    pages = [],
-    setCurrentPage,
-    contactSelected,
-    currentPage,
-  } = props;
+function Header({ currentPage, setCurrentPage }) {
+  const pages = ['About', 'Portfolio', 'Resume', 'Contact'];
 
   useEffect(() => {
-    document.title =currentPage.name;
+    document.title =currentPage;
   }, [currentPage]);
 
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <a href="/">
           Jared Davis
         </a>
       </h2>
-      <nav>
-        <ul className="flex-row">
-          {pages.map((page) => (
-            <li
-              className={`mx-1 ${
-                currentPage.name === page.name && !contactSelected && 'navActive'
-                }`}
-              key={page.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentPage(page);
-                }}
-              >
-                {page.name}
-              </span>
-            </li>
-          ))}
-          
-        </ul>
-      </nav>
+      <Nav defaultActiveKey="/About" as="ul">
+        { pages.map( link =>(
+          <Nav.Link className={`${currentPage === link && 'navActive'}`} ley={link}>
+            <span onClick={() => setCurrentPage(link)} >{link}</span></Nav.Link>
+        ))}
+      </Nav>
     </header>
   );
 }
