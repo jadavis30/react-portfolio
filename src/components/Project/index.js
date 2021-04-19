@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 import PhotoHut from '../../assets/PhotoHut/photohut.png'
 import DateNight from '../../assets/PYDN/plandatenight.png'
 import ProfileGen from '../../assets/TeamProfileGenerator/teamgen.png'
-import RetroRaid from '../../assets/retroraidss.png'
+import RetroRaid from '../../assets/RetroRaidSS.png'
 import Weather from '../../assets/weather.png'
 import WorkDay from '../../assets/workday.png'
 
@@ -22,8 +22,8 @@ function Project() {
                             <img className="project"
                             src={RetroRaid}
                             alt="Retro Raid Forum"
-                            width="400"
-                            height="400"/>
+                            width="1000"
+                            height="300"/>
                         </a>
                     </div>
                 </Col>
@@ -33,19 +33,8 @@ function Project() {
                             <img className="project"
                             src={PhotoHut}
                             alt="PhotoHut Website"
-                            width="400"
-                            height="200"/>
-                        </a>
-                    </div>
-                </Col>
-                <Col>
-                    <div className="with-margin">
-                        <a href="https://jadavis30.github.io/plan-your-date-night/">
-                            <img className="project"
-                            src={DateNight}
-                            alt="Plan Your Date Night Website"
-                            width="400"
-                            height="200"/>
+                            width="500"
+                            height="300"/>
                         </a>
                     </div>
                 </Col>
@@ -53,11 +42,22 @@ function Project() {
             <Row className="flex-row px-1">
                 <Col>
                     <div className="with-margin">
+                        <a href="https://jadavis30.github.io/plan-your-date-night/">
+                            <img className="project"
+                            src={DateNight}
+                            alt="Plan Your Date Night Website"
+                            width="600"
+                            height="400"/>
+                        </a>
+                    </div>
+                </Col>
+                <Col>
+                    <div className="with-margin">
                         <a href="https://github.com/jadavis30/team-profile-generator">
                             <img className="project"
                             src={ProfileGen}
                             alt="Team Profile HTML Generator"
-                            width="400"
+                            width="500"
                             height="400"/>
                         </a>
                     </div>
@@ -90,5 +90,4 @@ function Project() {
         </Container>
     );
 }
-
 export default Project;
