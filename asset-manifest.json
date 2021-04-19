@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5df48558.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.f14b8b46.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.f14b8b46.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.fac0536a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.fac0536a.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.96d03b91.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.96d03b91.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -14,11 +14,11 @@
     "static/js/2.fda79f78.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fda79f78.chunk.js.LICENSE.txt",
     "static/media/JaredDavisResume.798bb0fa.pdf": "/react-portfolio/static/media/JaredDavisResume.798bb0fa.pdf",
     "static/media/index.css": "/react-portfolio/static/media/NewTegomin-Regular.ae8c4d94.ttf",
+    "static/media/RetroRaidSS.89987eec.png": "/react-portfolio/static/media/RetroRaidSS.89987eec.png",
     "static/media/headerbanner.f0256f54.jpg": "/react-portfolio/static/media/headerbanner.f0256f54.jpg",
     "static/media/photohut.95663658.png": "/react-portfolio/static/media/photohut.95663658.png",
     "static/media/plandatenight.d497c25f.png": "/react-portfolio/static/media/plandatenight.d497c25f.png",
     "static/media/profileimage.5d4dc9ca.jpg": "/react-portfolio/static/media/profileimage.5d4dc9ca.jpg",
-    "static/media/socialmedia.ac18cbab.png": "/react-portfolio/static/media/socialmedia.ac18cbab.png",
     "static/media/teamgen.96d8767d.png": "/react-portfolio/static/media/teamgen.96d8767d.png",
     "static/media/weather.723e101b.png": "/react-portfolio/static/media/weather.723e101b.png",
     "static/media/workday.14200c67.png": "/react-portfolio/static/media/workday.14200c67.png"
@@ -28,6 +28,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.fda79f78.chunk.js",
     "static/css/main.5df48558.chunk.css",
-    "static/js/main.f14b8b46.chunk.js"
+    "static/js/main.fac0536a.chunk.js"
   ]
 }
