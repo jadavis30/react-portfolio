@@ -1,4 +1,4 @@
-# Professional Portfolio (developed with React)
+# Professional Portfolio
 
 ## Description
 This portfolio showcases the skills I've acquired through the UCF Full Stack Coding Bootcamp and will be updated with new techonologies and products for potential employers. The portfolio was built with the React framework.
