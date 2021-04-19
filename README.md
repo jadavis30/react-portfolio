@@ -1,7 +1,7 @@
 # Professional Portfolio (developed with React)
 
 ## Description
-This portfolio showcases the skills I've acquired and will be updated with new techonologies and products for potential employers. The portfolio was built with the React framework.
+This portfolio showcases the skills I've acquired through the UCF Full Stack Coding Bootcamp and will be updated with new techonologies and products for potential employers. The portfolio was built with the React framework.
 [JARED DAVIS](https://jadavis30.github.io/react-portfolio/)
 
 ## Table of Contents
